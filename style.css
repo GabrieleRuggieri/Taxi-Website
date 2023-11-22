@@ -2,7 +2,7 @@
 
   Common breakpoints for widths of devices:
 
-  320px — 480px: Mobile devices
+  320px — 768px: Mobile devices
   481px — 768px: iPads, Tablets
   769px — 1024px: Small screens, laptops
   1025px — 1200px: Desktops, large screens
@@ -61,7 +61,7 @@ p {
   font-weight: 900;
 }
 
-@media (max-width:480px) {
+@media (max-width:768px) {
   .big-text-2 {
     margin-top: 20px;
   }
@@ -100,7 +100,7 @@ p {
   border-radius: 10px
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
   .big-text {
     font-size: 40px;
@@ -145,7 +145,7 @@ p {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
   .cta {
     display: none;
@@ -276,7 +276,7 @@ p {
   padding: 50px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .poster {
     flex-wrap: wrap;
     height: auto;
@@ -322,7 +322,7 @@ p {
   padding: 50px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .poster2 {
     flex-wrap: wrap;
     height: auto;
@@ -366,7 +366,7 @@ p {
   align-items: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .bg-cover {
     flex-wrap: wrap;
     height: auto;
@@ -398,7 +398,7 @@ p {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .grid {
     flex-wrap: wrap;
   }
@@ -422,7 +422,7 @@ p {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .grid2 {
     flex-direction: column;
     justify-content: space-around;
@@ -457,7 +457,7 @@ p {
 
 }
 
-@media(max-width:480px) {
+@media(max-width:768px) {
   .main-carousel {
     align-items: center;
   }
@@ -534,7 +534,7 @@ p {
   border-radius: 20px;
 }
 
-@media(max-width:480px) {
+@media(max-width:768px) {
   .tariffario {
     margin-top: 100px;
   }
@@ -591,7 +591,7 @@ p {
   margin-top: 150px;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 768px) {
   .mt-3 {
     margin-top: 50px;
   }
@@ -612,7 +612,7 @@ p {
   /* Aggiungi spazio tra l'icona e il testo */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .mt-sma-0 {
     margin-top: 0
   }
